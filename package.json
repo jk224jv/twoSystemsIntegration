@@ -1,0 +1,17 @@
+{
+  "name": "system-integrator",
+  "version": "1.0.0",
+  "description": "converts data from one system to another",
+  "main": "/src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jimmy Karlsson <jk224jv@student.lnu.se>",
+  "license": "MIT",
+  "dependencies": {
+    "@lnu/eslint-config": "^1.1.7",
+    "line-reader": "^0.4.0"
+  }
+}
